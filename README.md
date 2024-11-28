@@ -32,8 +32,8 @@ FEC-20 has three basic operations (op) - `deploy`, `mint` and `transfer` which s
 |----|-----|---------|
 | `deploy`   | Creates a new token.       | `{"p":"fec-20","op":"deploy","tick":"FEXT","max":"60221400","lim":"3461"}` |
 | `mint`     | Issues specified token.    | `{"p":"fec-20","op":"mint","tick":"FEXT","amt":"3461"}` |
-| `transfer` | Transfers specified token. | `{"p":"brc-20","op":"transfer","tick":"FEXT","amt":"500"}` |
-> Note: A token cannot be minted or transferred unless it is deployed.
+| `transfer` | Transfers specified token. | `{"p":"fec-20","op":"transfer","tick":"FEXT","amt":"500"}` |
+> Note: A token cannot be minted or transferred unless it is deployed. `transfer` also requires additional outputs not specified here.
 
 #### Configure `deploy` `fec-20`
 To deploy a token is to launch your very own L2 token.  
