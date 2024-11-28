@@ -25,7 +25,7 @@ There are currently three standards in FEC-20-FEXT - *FEC-20*, *FEC-721* and *FE
 These three Layer-2 (L2)standards are used for fungible tokenisation, non-fungible tokenisation, and multimedia tokenisation.
 
 ### FEC-20
-FEC-20 is the basic L2 [token protocol on FEXT](ferritecoin.org/fext). It is used to create fungible tokens, where every token in a collection is identical.
+FEC-20 is the basic L2 [token protocol on FEXT](https://ferritecoin.org/fext). It is used to create fungible tokens, where every token in a collection is identical.
 FEC-20 has three basic operations (op) - `deploy`, `mint` and `transfer` which serve different functions.
 
 | op | Use | FEXT content example |
@@ -54,7 +54,7 @@ You need to decide on the fundamental properties of your token.
 `{"p":"fec-20","op":"deploy","tick":"FEXT","max":"60221400","lim":"3461"}`
 Ensure that the JSON is smaller than 80 bytes.  
 
-After configuring the parameters, broadcast the JSON on the [web FEXT](ferritecoin.org/fext).  
+After configuring the parameters, broadcast the JSON on the [web FEXT](https://ferritecoin.org/fext).  
 If a token with your chosen ticker exists, then the deploy is void.
 Spaces can be omitted and to save space and transaction fees an single line JSON is recommended.    
 
